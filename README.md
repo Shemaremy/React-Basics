@@ -21,9 +21,9 @@ By using :
 
   ## We need to install Vite first of all
 
-  a. Install Vite(Lets use suggested version) :   npm create vite@4.1.0     (Fill all and we'll be using Typescript variant)
+  a. Install Vite(Lets use suggested version) :        (Fill all and we'll be using Typescript variant)
 
-  b. Run : cd "your_file_name" to browse to your folder where your project is. Ex: npm "First React Project"
+  b. Run : cd "your_file_name" to browse to your folder where your project is. Ex: cd "First React Project"
 
   c. Run : npm i      (To install all third party libraries)
 
@@ -103,15 +103,57 @@ By using :
 function Toprops(props: { name: string }) {}
 
 
-# 6. HOOKS
---------------
 
 
-# 7. STATES
+# 6. STATES
 ------------
+- Each component in React can have its own state, which is an object that represents various pieces of data that component needs to keep track of.
+
+- In React, state is managed using the useState hook
 
 
-# 8. API WITH REACT
---------------------
 
+# 7. HOOKS
+-----------
+- A hook in react is a feature that allows you to use state and other React features without writing a class
+- Hooks are functions that let you "hook" into React state and lifecycle features from function components.
+
+- Lets take an example of an app that clicks and adds number of items into a shopping cart. Whenever I click +, the items in cart increase and for - it decrease. We'll useState hook. 
+
+- By the above example, a hook will help me update the number of items to the cart. You'll learn more in the Hooks file. But below is a step by step of how to use hooks:
+
+## a) Import a hook from React package
+## b) Create a function or component as usual
+## c) Declare an array which calls a hook
+
+
+
+
+
+# 8. REACT JSX
+---------------
+
+- JSX means Javascript XML
+- JSX allows us to write HTML in React.
+- JSX makes it easier to write and add HTML in React.
+- JSX allows us to write HTML elements in JavaScript and place them in the DOM without any createElement()  and/or appendChild() methods.
+
+- JSX converts HTML tags into react elements.
+
+
+
+
+# 9. STYLING WITH REACT
+------------------------
+- Styling is done either in your component element
+- Or can be done using App.css
+- For more find Styling.tsx to learn more
+
+
+# 10. REACT ROUTER
+------------------
+
+
+# 11.REDUX IN REACT STATE MANAGEMENT
+------------------------------------
 
