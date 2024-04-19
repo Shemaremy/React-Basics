@@ -7,5 +7,5 @@ function Toprops(props: { name: string }){                    // Specify the obj
         </div>
     );
 }
-
+ 
 export default Toprops;
