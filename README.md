@@ -150,10 +150,48 @@ function Toprops(props: { name: string }) {}
 - For more find Styling.tsx to learn more
 
 
-# 10. REACT ROUTER
+
+# 10. Jsx fragments/elements vs functional components
+-----------------------------------------------------
+- Jsx fragments are like normal variables which store more data in react
+ex:
+const A = (
+   <>
+   <h1>Hello World</h1>
+   </>
+);
+
+<div>{A}</div>
+
+
+
+- Functional components are normal funtions in react
+ex:
+const B = () => {
+   <>
+   <h1>Hello World</h1>
+   </>
+};
+
+<div><B/></div>
+
+
+
+- Jsx elements are returned in {}
+- Functional components are returned in </>
+
+- Jsx elements cannot include logic, state, or props
+- Functional cannot include logic, state, or props unlike jsx elements
+
+- Jsx elements cannot use return()
+- Functional components can use return() because they are functions
+
+
+
+# 11. REACT ROUTER
 ------------------
 
 
-# 11.REDUX IN REACT STATE MANAGEMENT
+# 12.REDUX IN REACT STATE MANAGEMENT
 ------------------------------------
 
