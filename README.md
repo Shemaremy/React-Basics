@@ -21,7 +21,7 @@ By using :
 
   ## We need to install Vite first of all
 
-  a. Install Vite(Lets use suggested version) :        (Fill all and we'll be using Typescript variant)
+  a. Install Vite(Lets use suggested version) :  npm create vite@4.1.0      (Fill all and we'll be using Typescript variant)
 
   b. Run : cd "your_file_name" to browse to your folder where your project is. Ex: cd "First React Project"
 
