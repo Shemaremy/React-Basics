@@ -1,3 +1,36 @@
+# REACT JS WRAPPER
+----------------------------------------------------------------------------------------------------------
+
+1. Vite setup
+2. Components
+3. Props
+4. States
+5. Hooks
+
+6. Routers
+7. Redux
+8. Usecontext
+9. Fetch APIs
+10. Promises (Await/Async)
+
+11. Events (onClick)
+12. Map
+13. Keys
+14. Forms
+15. NPM (Node Package Manager)
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
 # 0. HOW TO CREATE A REACT APP
 -------------------------------
 There are two common ways to create a react app. Namely : 
