@@ -14,7 +14,7 @@
 10. Promises (Await/Async)
 
 11. Events (onClick)
-12. Map
+12. Array methods (map, filter, reduce,...)
 13. Keys
 14. Forms
 15. NPM (Node Package Manager)
